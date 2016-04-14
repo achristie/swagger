@@ -1,0 +1,4 @@
+- name: 'Company'
+  description: 'Information about Companies (Issuers, BuySide, SellSide)'
+- name: 'Issuer'
+  description: 'Information about Issuers (inherits from Company)'

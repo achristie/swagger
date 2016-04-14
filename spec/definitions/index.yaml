@@ -1,0 +1,6 @@
+Company:
+    $ref: ./company.yaml
+Issuer:
+    $ref: ./issuer.yaml
+Security:
+    $ref: ./security.yaml

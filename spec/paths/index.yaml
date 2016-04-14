@@ -1,0 +1,4 @@
+/companies/{id}:
+    $ref: ./companies.yaml
+/issuers/{id}:
+    $ref: ./issuers.yaml

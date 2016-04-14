@@ -1,0 +1,17 @@
+discriminator: groupType
+properties:
+    id:
+        type: string
+    name:
+        type: string
+    groupType:
+        type: string
+        description: Classification of Companies
+        enum:
+            - Buyside
+            - Sellside
+            - Issuer
+required:
+ - "id"
+ - "name"
+ - "groupType"

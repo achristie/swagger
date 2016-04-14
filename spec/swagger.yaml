@@ -1,0 +1,18 @@
+swagger: '2.0'
+host: localhost:10010
+basePath: /api/v1
+schemes:
+  - https
+consumes:
+  - application/json
+produces:
+  - application/json
+info:
+  version: 0.0.1
+  title: Graph API
+tags:
+    $ref: ./tags/index.yaml
+paths:
+    $ref: ./paths/index.yaml
+definitions:
+    $ref: ./definitions/index.yaml

@@ -1,0 +1,27 @@
+{
+  "name": "swagger",
+  "version": "0.0.1",
+  "description": "swagger project",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "swagger-cli": "^1.0.0-beta.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm run validate && cd app && http-server --cors",
+    "bundle": "swagger bundle -o ./app/swagger.json ./spec/swagger.yaml",
+    "validate": "npm run bundle && swagger validate ./spec/swagger.yaml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achristie/swagger.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/achristie/swagger/issues"
+  },
+  "homepage": "https://github.com/achristie/swagger#readme"
+}

@@ -1,0 +1,22 @@
+discriminator: groupType
+properties:
+    id:
+        type: string
+    name:
+        type: string
+    groupType:
+        type: string
+        description: Classification of Securities
+        enum:
+            - Equity
+            - Fixed Income
+    ticker:
+        type: string
+    cusip:
+        type: string
+    isin:
+        type: string
+required:
+ - "id"
+ - "name"
+ - "groupType"
